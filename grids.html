@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="estilos.css" >
+    <title>Grids</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Header</h1>
+      </div>
+    </header>
+
+    <!-- container nos encierra todo en un bloque centrado y si ponemos "container-fluid"
+         el contenido abarca toda la pantalla -->
+    <div class="container">
+      <!-- la clase "row" nos especifica que todo lo que esté dentro de éste section va a ser
+           una sola fila en la que podemos agregar columnas -->
+      <section class="main row">
+        <!-- existen 4 tipos de columnas y éstas se ajustan dependiendo del tamaño del dispositivo
+             "col-xs-" para dispositivos pequeños como móviles, "col-sm-" para pequeños como tablets
+             "col-md-" para weas mas grandecitas y "col-lg-" para monitores -->
+        <article class="col-xs-7 col-sm-8 col-md-9">
+          <h1>Article</h1>
+          <h2>Varias columnas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+             officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+        <aside class="col-xs-5 col-sm-4 col-md-3">
+          <h1>Aside</h1>
+          <h2>Varias columnas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+        </aside>
+      </section>
+
+      <div class="row">
+        <div class="color1 col-xs-12 col-sm-6 col-md-3">
+          <h1>Columna 1</h1>
+          <h2>3 columnas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <h1>Columna 2</h1>
+          <h2>3 columnas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <!-- Esta wea de "clearfix visible-sm-block" es para que se arreglen cuestiones de tamaños
+             y compense los divs en caso de que alguno sea mas grande que otro, de esa manera
+             los pone todos al mismo nivel  -->
+        <!-- <div class="clearfix visible-sm-block"></div> -->
+
+        <!-- "col-md-offset-" desplaza el contenido determinada cantidad de columnas hacia la derecha -->
+        <div class="color1 col-xs-12 col-sm-6 col-md-3 col-md-offset-3">
+          <h1>Columna 3</h1>
+          <h2>3 columnas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <!-- <div class="col-xs-12 col-sm-6 col-md-3">
+          <h1>Columna 4</h1>
+          <h2>3 columnas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+        </div> -->
+
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="container">
+        <h3>Desarrollado por TU PINCHE COLAAAAAA!!!</h3>
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0">
+    <!-- El valor 'media' es para especificar en que tipo de dispositivo se muestra el contenido -->
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title">
+    <title>Tipografía</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Los titulos ya tiene un estilo que configura bootstrap y las etiquetas small
+           para este caso son distintas dentro de h1 que fuera del mismo -->
+      <!-- las class "text-wea" les de un color específico a cada texto -->
+      <h1 class="text-muted">Este es un header con text-muted H1 <small>Texto chiquito</small></h1>
+      <h2 class="text-primary">Este es un header con text-primary H2 <small>Texto chiquito</small></h2>
+      <h3 class="text-success">Este es un header con text-success H3 <small>Texto chiquito</small></h3>
+      <h4 class="text-info">Este es un header con text-infoH4 <small>Texto chiquito</small></h4>
+      <h5 class="text-warning">Este es un header con text-warning H5 <small>Texto chiquito</small></h5>
+      <h6 class="text-danger">Este es un header con text-danger H6 <small>Texto chiquito</small></h6>
+      <!-- las class "bg-wea" les de un color de fondo específico a cada texto -->
+      <h1 class="bg-primary">Este es un header con bg-primary H1 <small>Texto chiquito</small></h1>
+      <h2 class="bg-info">Este es un header con bg-info H2 <small>Texto chiquito</small></h2>
+      <h3 class="bg-success">Este es un header con bg-success H3 <small>Texto chiquito</small></h3>
+      <h4 class="bg-danger">Este es un header con bg-danger H4 <small>Texto chiquito</small></h4>
+      <h5 class="bg-warning">Este es un header con bg-warning H5 <small>Texto chiquito</small></h5>
+
+      <br><br>
+      <div class="row">
+        <!-- "text-wea" alinea el texto según sea 'left', 'justify', o 'right' -->
+        <div class="col-md-4 text-justify">
+          <!-- lead solo resalta un poco mas las letras mientras que "text-lowercase lo dice todo" -->
+          <p class="lead text-lowercase"> Lorem Ipsum Dolor sit Amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          <!-- "mark" subraya tipo marcatextos las letritas -->
+          <p class=""> <mark>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</mark></p>
+          <!-- "del" al igual que s, las tacha-->
+          <p class=""> <del>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </del></p>
+          <p class=""> <s>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </s></p>
+          <!-- "ins" al igual que "u" las subraya con una linea -->
+          <p class=""> <ins>cupidatat non proident, sunt in culpa qui officia deserunt </ins></p>
+          <p class=""> <u>mollit anim id est laborum. </u></p>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="small text-uppercase"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          <!-- "strong" al igual que "b" las  pone negritas y "em" en cursiva -->
+          <p class=""> <strong>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </strong></p>
+          <p class=""> <b>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </b></p>
+          <p class=""> <em>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </em></p>
+          <p class=""> cupidatat non proident, sunt in culpa qui officia deserunt </p>
+          <p class=""> mollit anim id est laborum. </p>
+        </div>
+        <div class="col-md-4 text-right">
+          <!-- "capitalize" las pone las primeras en mayúsculas mientras que "code" las pone como maquina de escribir
+                y "pre" las encierra en el cuadrito kawai de código -->
+          <p class="text-capitalize"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          <p class=""> <code>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </code></p>
+          <p class=""> <pre>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit  </pre></p>
+          <p class=""> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+          <p class=""> cupidatat non proident, sunt in culpa qui officia deserunt </p>
+          <p class=""> mollit anim id est laborum. </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- "blockquote" es para poner citas mamalonas de gente cool y agregandole el "-reverse" se pone del
+              otro lado haciendola mas mamalona aún -->
+        <blockquote class="blockquote-reverse">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <!-- se puede usar un "footer" justo aqui y esto es el que le da el nombre de quien dijo la cita -->
+          <footer>Tu pinche colaaaaaaaa!!<cite title="Fuente"> de Fuente</cite></footer>
+        </blockquote>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

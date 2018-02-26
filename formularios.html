@@ -1,0 +1,198 @@
+<!-- Minuto 25:59 -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <div class="container">
+      <br>
+      <form class="" action="" method="post">
+
+        <div class="form-group has-error">
+          <label for="nombre" class="control-label">Nombre: </label>
+            <input class="form-control" id="nombre" type="text" placeholder="Nombre" >
+        </div>
+
+        <div class="form-group">
+          <label for="option">Elige una opción</label>
+            <select class="form-control" name="" id="option">
+              <option value="">Opción 1</option>
+              <option value="">Opción 2</option>
+              <option value="">Opción 3</option>
+              <option value="">Opción 4</option>
+              <option value="">Opción 5</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje: </label>
+            <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="archivo">Archivo: </label>
+            <input type="file" id="archivo">
+            <p class="help-block">Máximo 50mb</p>
+        </div>
+
+        <button class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+    <!-- **************************************************** -->
+    <br><br><br><br><br><br><br>
+
+    <div class="container">
+      <br>
+      <form class="form-inline" action="" method="post">
+
+        <div class="form-group">
+          <label class="sr-only" for="nombre">Nombre: </label>
+          <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+        </div>
+
+        <div class="form-group">
+          <div class="input-group">
+            <label class="sr-only" for="correo">Correo: </label>
+            <div class="input-group-addon">@</div>
+            <input class="form-control" id="correo" type="text" placeholder="e-mail">
+          </div>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input id="" type="checkbox" name=""> Recuérdame
+          </label>
+        </div>
+
+        <button class="btn btn-primary">Enviar</button>
+
+      </form>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
+
+
+<!-- **************************************************** -->
+<br><br><br><br><br><br><br>
+
+
+<div class="container">
+  <br>
+  <form class="form-horizontal" action="" method="post">
+
+    <fieldset disabled>
+
+      <div class="form-group">
+        <label for="nombre" class="control-label col-md-2">Nombre </label>
+        <div class="col-md-10">
+          <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="nombre" class="control-label col-md-2">Nombre: </label>
+        <div class="col-md-10">
+          <p class="form-control-static">Luis Pedroza</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="correo" class="control-label col-md-2">Correo: </label>
+        <div class="col-md-10">
+          <input class="form-control" id="correo" type="text" placeholder="Correo" disabled>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="checkbox col-md-2 col-md-offset-2">
+          <label>
+            <input type="checkbox">Recuérdame
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-2 col-md-offset-2">
+          <button class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+
+    </fieldset>
+
+  </form>
+</div>
+
+
+<!-- **************************************************** -->
+<br><br><br><br><br><br><br>
+
+
+<div class="container">
+  <br>
+  <form class="form-horizontal" action="" method="post">
+
+      <div class="form-group has-success">
+        <label for="nombre" class="control-label col-md-2">Nombre </label>
+        <div class="col-md-10">
+          <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+        </div>
+      </div>
+
+      <div class="form-group has-warning">
+        <label for="nombre" class="control-label col-md-2">Nombre: </label>
+        <div class="col-md-10">
+          <p class="form-control-static">Luis Pedroza</p>
+        </div>
+      </div>
+
+      <div class="form-group has-error">
+        <label for="correo" class="control-label col-md-2">Correo: </label>
+        <div class="col-md-10">
+          <input class="form-control" id="correo" type="text" placeholder="Correo">
+        </div>
+      </div>
+
+      <div class="form-group ">
+        <div class="checkbox col-md-2 col-md-offset-2">
+          <label>
+            <input type="checkbox">Recuérdame
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-2 col-md-offset-2">
+          <button class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+
+  </form>
+</div>
+
+
+
+
+<!-- Controles soportados por bootstrap -->
+
+<!-- text
+     password
+     datetime
+     datetime-local
+     date
+     month
+     time
+     week
+     number
+     email
+     url
+     search
+     tel
+     color -->

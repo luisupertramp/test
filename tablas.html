@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Tablas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Tipo: table-striped</h3>
+      <!-- Table-striped colorea las filas de la tabla, una si y una no, indistintamente -->
+      <table class="table table-striped">
+        <!-- 'active' resalta la fila seleccionada, útil para cada comienzo de tabla -->
+        <tr class="active">
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Usuario</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis</td>
+          <td>Spertramp</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Fernando</td>
+          <td>fer</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Tu pinche coola</td>
+          <td>tpc</td>
+        </tr>
+      </table>
+
+      <h3>Tipo: table-bordered</h3>
+      <!-- 'table-bordered' Coloca todos los bordes a cada celda de la tabla -->
+      <table class="table table-bordered">
+        <!-- Las clases 'success', 'warning' y todas esas, son para poner colo a las filas -->
+        <tr class="active">
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Usuario</th>
+        </tr>
+        <tr class="success">
+          <td>1</td>
+          <td>Luis</td>
+          <td>Spertramp</td>
+        </tr>
+        <tr class="warning">
+          <td>2</td>
+          <td>Fernando</td>
+          <td>fer</td>
+        </tr>
+        <tr class="danger">
+          <td>3</td>
+          <td>Tu pinche coola</td>
+          <td>tpc</td>
+        </tr>
+        <tr class="info">
+          <td>4</td>
+          <td>info</td>
+          <td>class="info"</td>
+        </tr>
+      </table>
+
+      <h3>Tipo: table-hover</h3>
+      <!-- table-hover resalta la fila por la que se coloca el puntero -->
+      <table class="table table-hover">
+        <tr class="active">
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Usuario</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis</td>
+          <td>Spertramp</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Fernando</td>
+          <td>fer</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Tu pinche coola</td>
+          <td>tpc</td>
+        </tr>
+      </table>
+
+      <h3>Tipo: table-condensed</h3>
+      <!-- Reduce el tamaño de cada fila -->
+      <table class="table table-condensed">
+        <tr class="active">
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Usuario</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis</td>
+          <td>Spertramp</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Fernando</td>
+          <td>fer</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Tu pinche coola</td>
+          <td>tpc</td>
+        </tr>
+      </table>
+
+      <h3>Tipo: table-responsive</h3>
+      <!-- table-responsive muestra una barra de scroll para cuando la pantalla es muy pequeña -->
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <tr class="active">
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Usuario</th>
+            <th>Pass</th>
+            <th>Tipo</th>
+            <th>Edad</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Luis</td>
+            <td>Spertramp</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Fernando</td>
+            <td>fer</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Tu pinche coola</td>
+            <td>tpc</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
